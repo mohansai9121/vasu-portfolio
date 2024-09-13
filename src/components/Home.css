@@ -1,0 +1,39 @@
+.navbar {
+  display: flex;
+  gap: 90px;
+  align-items: center;
+  justify-content: center;
+  background-attachment: fixed;
+  position: sticky;
+  top: 3px;
+  background-color: rgba(230, 220, 220, 0.2);
+}
+.navbar li {
+  list-style-type: none;
+}
+.container {
+  background: linear-gradient(0.25turn, #545753, 185105);
+}
+.flex-display1 {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+.flex-2 {
+  flex: 2;
+}
+.flex-3 {
+  flex: 3;
+}
+.image {
+  height: 270px;
+  width: 300px;
+  animation: float 2s ease infinite alternate;
+  padding-bottom: 150px;
+}
+@keyframes float {
+  to {
+    transform: translateY(30px);
+  }
+}

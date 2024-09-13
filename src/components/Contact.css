@@ -1,0 +1,41 @@
+.flex-display {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.left {
+  flex: 1;
+}
+.form-name {
+  margin: 5px;
+}
+.form-name label {
+  font-size: 20px;
+  font-weight: 500;
+}
+.dmedia {
+  top: 0px;
+}
+.form-name input {
+  width: 250px;
+  height: 30px;
+  font-size: 20px;
+}
+.form-message label {
+  font-size: 20px;
+  font-weight: 500;
+}
+.form-message textarea {
+  width: 300px;
+  font-size: 18px;
+  margin: 5px;
+}
+.right {
+  flex: 1;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

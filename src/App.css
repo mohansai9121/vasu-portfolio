@@ -1,0 +1,12 @@
+#root {
+  margin: 0 auto;
+  text-align: center;
+}
+.scrolling {
+  scrollbar-width: none;
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
